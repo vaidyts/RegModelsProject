@@ -3,8 +3,11 @@ title: "Mileage of automatic vs manual transmission cars"
 output: pdf_document
 ---
 
+```{r}
 library(knitr)
 knit("proj_final_5.md")
+```
+
 
 ### Executive Summary
 
