@@ -3,6 +3,9 @@ title: "Mileage of automatic vs manual transmission cars"
 output: pdf_document
 ---
 
+library(knitr)
+knit("proj_final_5.md")
+
 ### Executive Summary
 
 As part of the course project for Regression Models course, we are asked, based on the mtcars dataset, to answer whether automatic or manual transmission is better for miles per gallon (mpg), and to substantiate the answer using statistical tools and methods. We go about by looking at the data, testing for normality, plotting exploratory graphs, and applying inferential and regression techniques. It is seen that there is indeed a statistically significant difference in mpg between automatic and manual cars. We explore further by developing 3 different regression models based on different assumptins and comparing them for predictor power, residuals, etc. It is seen that Model0 is very simplistic and has the least predictive power, while Models 1 and 2 are more robust and are better and comparable in term of predictive power and residuals.
